@@ -1,7 +1,10 @@
 @gray1: #e1e1e1;
 @gray2: #f6f6f6;
 @node_green: #80bd01;
-@node_black: #444444;
+@node_yellow: #d66349;
+@node_black: #000000;
+@node_grey_dark: #333333;
+@node_grey_light: #8b8b8b;
 
 /* base */
 body {
@@ -185,7 +188,7 @@ a.light:hover {
 }
 
 .breadcrumb a {
-  color: @node_green;
+  color: @node_yellow;
 }
 
 .panel .header {
@@ -352,7 +355,7 @@ a.last_time {
   border-radius: 8px;
 
   padding: 1px 5px;
-  background-color: @node_green;
+  background-color: @node_yellow;
   color: white;
   margin-right: 0.5em;
 }
@@ -553,7 +556,7 @@ a.user_avatar:hover {
 
 .reply_by_author {
   color: #fff;
-  background-color: #6ba44e;
+  background-color: #b84f37;
   padding: 2px;
   font-size: 12px;
 }
@@ -653,7 +656,7 @@ a.topic_title {
 }
 
 .put_top, .put_good {
-  background: @node_green;
+  background: @node_yellow;
   padding: 2px 4px;
   border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -751,7 +754,7 @@ img.unread {
 }
 
 .panel .markdown-text a {
-  color: #08c;
+  color: #ea7b6a;
 }
 
 .preview {
@@ -825,7 +828,7 @@ textarea#title {
 
 .navbar .brand {
   padding: 4px 0px 0px 20px;
-  width: 120px;
+  width: 80px;
   padding: 3px 20px;
   height: 34px;
   line-height: 34px;
@@ -915,7 +918,7 @@ textarea#title {
 }
 
 .pagination li.active a {
-  color: @node_green;
+  color: @node_yellow;
 }
 
 .topic_content {
@@ -1112,9 +1115,9 @@ textarea.editor {
   .span-common();
 
   color: white;
-  background-color: @node_green;
+  background-color: @node_yellow;
   &:hover {
-    background-color: #6ba44e;
+    background-color: #b84f37;
   }
 }
 
@@ -1122,9 +1125,9 @@ textarea.editor {
   .span-common();
 
   color: white;
-  background-color: #08c;
+  background-color: #ea7b6a;
   &:hover {
-    background-color: #05c;
+    background-color: #cd6454;
   }
 }
 
@@ -1147,9 +1150,9 @@ textarea.editor {
 
 .topic-tab {
   margin: 0 10px;
-  color: @node_green;
+  color: @node_yellow;
   &.current-tab {
-    background-color: @node_green;
+    background-color: @node_yellow;
     color: white;
     padding: 3px 4px;
     border-radius: 3px;
